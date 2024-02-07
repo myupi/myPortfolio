@@ -1,0 +1,24 @@
+.hover {
+  position: relative;
+  cursor: pointer;
+  &::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    bottom: -1px;
+    background-color: #5c62ec;
+    left: 0;
+    height: 3px;
+  }
+}
+
+.background {
+  background-image: url("../assets/Abstract.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.skills {
+  min-height: calc(100vh - (58px + 110px));
+}
