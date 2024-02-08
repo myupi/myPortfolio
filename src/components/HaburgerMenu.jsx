@@ -1,11 +1,10 @@
-import { AnimatePresence, motion  } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { Squash as Hamburger } from "hamburger-react";
 import { useRef, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useClickAway } from "react-use";
 
-
-export const HaburgerMenu = ({nav}) => {
+export const HaburgerMenu = ({ nav }) => {
   const [isOpen, setOpen] = useState(false);
   const ref = useRef(null);
 
@@ -25,7 +24,6 @@ export const HaburgerMenu = ({nav}) => {
           >
             <ul className="grid gap-2 pt-5">
               {nav.map((item, idx) => {
-
                 return (
                   <motion.li
                     initial={{ scale: 0, opacity: 0 }}
@@ -39,7 +37,7 @@ export const HaburgerMenu = ({nav}) => {
                     key={item.id}
                     className="w-full p-[0.08rem] rounded-xl bg-gradient-to-tr from-neutral-800 via-neutral-950 to-neutral-700"
                   >
-                    <NavLink
+                    <Link
                       onClick={() => setOpen((prev) => !prev)}
                       className={
                         "flex items-center justify-between w-full p-5 rounded-xl bg-neutral-950"
@@ -47,7 +45,7 @@ export const HaburgerMenu = ({nav}) => {
                       to={item.path}
                     >
                       <span className="flex gap-1 text-lg">{item.name}</span>
-                    </NavLink>
+                    </Link>
                   </motion.li>
                 );
               })}
