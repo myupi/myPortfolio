@@ -26,7 +26,7 @@ export const Showcase = () => {
         </p>
         <Link
           to={"https://hh.uz/resume/ec9a98eaff0cb6914a0039ed1f7239334f7965"}
-          className="text-white bg-[#5C62EC] rounded-md py-4 px-8 hover:opacity-75 transition-all"
+          className="text-white bg-[#5C62EC] rounded-md py-4 px-8 hover:opacity-75 transition-all text-center"
           target="_blank"
         >
           Check CV
