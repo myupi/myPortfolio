@@ -5,7 +5,6 @@ export const Contacts = () => {
   return (
     <section className={style.skills + " flex items-center justify-center"}>
       <div
-        data-aos="zoom-out"
         className="container flex items-center justify-center flex-col mx-auto py-10 gap-8"
       >
         <h1 className="text-center font-bold text-6xl text-[#5C62EC]">

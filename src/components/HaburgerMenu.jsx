@@ -4,7 +4,7 @@ import { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { useClickAway } from "react-use";
 
-export const HaburgerMenu = ({ nav }) => {
+export const HaburgerMenu = ({nav}) => {
   const [isOpen, setOpen] = useState(false);
   const ref = useRef(null);
 
