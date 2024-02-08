@@ -25,7 +25,7 @@ export const Showcase = () => {
         </p>
         <Link
           to={
-            "https://drive.google.com/file/d/1YGUzdOehv4a3bDrPYMcip73hWNKZmZEL/view"
+            "https://drive.google.com/file/d/1YGUzdOehv4a3bDrPYMcip73hWNKZmZEL/view?usp=drive_link"
           }
           className="text-white bg-[#5C62EC] rounded-md py-4 px-8 hover:opacity-75 transition-all text-center"
           target="_blank"
