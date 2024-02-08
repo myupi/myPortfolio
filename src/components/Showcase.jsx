@@ -3,7 +3,6 @@ import style from "./style.module.scss";
 import { Link } from "react-router-dom";
 
 export const Showcase = () => {
-
   return (
     <section className="bg-black py-5">
       <div
@@ -25,7 +24,9 @@ export const Showcase = () => {
           with passion for learning and creating.
         </p>
         <Link
-          to={"https://hh.uz/resume/ec9a98eaff0cb6914a0039ed1f7239334f7965"}
+          to={
+            "https://drive.google.com/file/d/1YGUzdOehv4a3bDrPYMcip73hWNKZmZEL/view"
+          }
           className="text-white bg-[#5C62EC] rounded-md py-4 px-8 hover:opacity-75 transition-all text-center"
           target="_blank"
         >
