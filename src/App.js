@@ -6,6 +6,8 @@ import { SkillsPage } from "./pages/SkillsPage";
 import { ContactsPage } from "./pages/ContactsPage";
 
 function App() {
+  document.cookie = "myCookie=myValue; SameSite=None; Secure";
+
   return (
     <>
       <Header />

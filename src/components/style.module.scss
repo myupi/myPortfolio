@@ -22,3 +22,10 @@
 .skills {
   min-height: calc(100vh - (58px + 110px));
 }
+
+.shadow {
+  text-shadow: 0px 0px 50px white;
+  span {
+    text-shadow: 0px 0px 50px #5c62ec;
+  }
+}

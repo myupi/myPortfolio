@@ -1,7 +1,25 @@
 import React from "react";
 import { Navbar } from "./Navbar";
 import { Link } from "react-router-dom";
+import { HaburgerMenu } from "./HaburgerMenu";
 
+const nav = [
+  {
+    id: 0,
+    path: "/",
+    name: "Projects",
+  },
+  {
+    id: 1,
+    path: "/skills",
+    name: "Skills",
+  },
+  {
+    id: 2,
+    path: "/contacts",
+    name: "Contacts",
+  },
+];
 
 export const Header = () => {
   return (
@@ -12,7 +30,8 @@ export const Header = () => {
             <span className="font-bold">myupi</span> portfolio
           </Link>
         </div>
-        <Navbar />
+        <Navbar nav={nav} />
+        <HaburgerMenu nav={nav} />
       </div>
     </header>
   );

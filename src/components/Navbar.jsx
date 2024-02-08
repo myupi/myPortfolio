@@ -2,27 +2,9 @@ import React from "react";
 import style from "./style.module.scss";
 import { NavLink } from "react-router-dom";
 
-const nav = [
-  {
-    id: 0,
-    path: "/",
-    name: "Projects",
-  },
-  {
-    id: 1,
-    path: "/skills",
-    name: "Skills",
-  },
-  {
-    id: 2,
-    path: "/contacts",
-    name: "Contacts",
-  },
-];
-
-export const Navbar = () => {
+export const Navbar = ({nav}) => {
   return (
-    <nav className="text-white flex list-none items-center gap-4">
+    <nav className="text-white flex list-none items-center gap-4 max-md:hidden">
       {nav.map((item) => {
         return (
           <NavLink

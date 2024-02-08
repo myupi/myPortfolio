@@ -1,19 +1,8 @@
 import React from "react";
 import style from "./style.module.scss";
-import { saveAs } from "file-saver";
+import { Link } from "react-router-dom";
 
 export const Showcase = () => {
-  const handleDownload = () => {
-    const filePath = process.env.PUBLIC_URL + "/assets/CV.pdf";
-
-    // Загрузите файл и сохраните его с помощью file-saver
-    fetch(filePath)
-      .then((response) => response.blob())
-      .then((blob) => {
-        saveAs(blob, "CV.pdf");
-      })
-      .catch((error) => console.error("Ошибка загрузки файла:", error));
-  };
   return (
     <section className="bg-black py-5">
       <div
@@ -22,22 +11,25 @@ export const Showcase = () => {
           style.background
         }
       >
-        <h1 className="text-white text-center ">
+        <h1 className={style.shadow + " text-white text-center "}>
           <span className="font-bold text-4xl">
-            Hi, my name is <span className="text-[#5C62EC]">myupi</span>
+            Hi, my name is <span className="text-[#5C62EC]">Ali</span>
           </span>
           <br />
-          <span className="text-3xl">a frontend developer</span>
+          <span className={style.shadow + " text-3xl"}>
+            and I'm a frontend developer
+          </span>
         </h1>
         <p className="text-white text-center">
           with passion for learning and creating.
         </p>
-        <button
-          onClick={handleDownload}
+        <Link
+          to={"https://hh.uz/resume/ec9a98eaff0cb6914a0039ed1f7239334f7965"}
           className="text-white bg-[#5C62EC] rounded-md py-4 px-8 hover:opacity-75 transition-all"
+          target="_blank"
         >
-          Download CV
-        </button>
+          Check CV
+        </Link>
       </div>
     </section>
   );
