@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export const ProjectCard = () => {
   return (
@@ -13,4 +13,4 @@ export const ProjectCard = () => {
       </h3>
     </div>
   );
-}
+};

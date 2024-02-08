@@ -1,10 +1,13 @@
 import React from "react";
-import style from "./style.module.scss"
+import style from "./style.module.scss";
 
 export const Skills = () => {
   return (
     <section className={style.skills + " flex items-center justify-center"}>
-      <div className="container flex items-center justify-center flex-col mx-auto py-10 gap-8">
+      <div
+        data-aos="zoom-out"
+        className="container flex items-center justify-center flex-col mx-auto py-10 gap-8"
+      >
         <h1 className="text-center font-bold text-6xl text-[#5C62EC]">
           Skills
         </h1>

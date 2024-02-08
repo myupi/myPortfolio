@@ -6,6 +6,7 @@ export const Showcase = () => {
   return (
     <section className="bg-black py-5">
       <div
+        data-aos="zoom-out"
         className={
           "container gap-6 mx-auto min-h-[500px] flex items-center justify-center flex-col " +
           style.background
