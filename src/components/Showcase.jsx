@@ -32,6 +32,15 @@ export const Showcase = () => {
         >
           Check CV
         </Link>
+        <Link
+          to={
+            "bit.ly/tuittuk"
+          }
+          className="text-white bg-[#5C62EC] rounded-md py-4 px-8 hover:opacity-75 transition-all text-center"
+          target="_blank"
+        >
+          Check CV
+        </Link>
       </div>
     </section>
   );
