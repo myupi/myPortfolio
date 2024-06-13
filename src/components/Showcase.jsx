@@ -25,7 +25,7 @@ export const Showcase = () => {
         </p>
         <Link
           to={
-            "https://drive.google.com/file/d/1NKaJ46mf97g_EzWRo0XYjwvYh6LoSndh/view?usp=drivesdk"
+            "https://drive.google.com/file/d/1UcYVnyCfB2SsFgCVK7-3t4q-Vx_2fj8I/view"
           }
           className="text-white bg-[#5C62EC] rounded-md py-4 px-8 hover:opacity-75 transition-all text-center"
           target="_blank"
@@ -34,7 +34,7 @@ export const Showcase = () => {
         </Link>
         <Link
           to={
-            "https://docs.google.com/spreadsheets/d/e/2PACX-1vTPUaPVwoGw0z85FkKwEUALJwyQ_1BPTbDuH7tqFxpDkrGi83XYjmg6NEPtN0c4YoCVqYi3gVzmaS4y/pubhtml"
+             "https://docs.google.com/spreadsheets/d/e/2PACX-1vTPUaPVwoGw0z85FkKwEUALJwyQ_1BPTbDuH7tqFxpDkrGi83XYjmg6NEPtN0c4YoCVqYi3gVzmaS4y/pubhtml"
           }
           className="text-white bg-[#5C62EC] rounded-md py-4 px-8 hover:opacity-75 transition-all text-center"
           target="_blank"
