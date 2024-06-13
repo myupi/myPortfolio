@@ -34,7 +34,7 @@ export const Showcase = () => {
         </Link>
         <Link
           to={
-             "https://docs.google.com/document/d/1N-NlX_bFf0D-WEFhVTQrjP7LJUX5exEW/edit4y/pubhtml"
+             "https://drive.google.com/file/d/1h3gycRsk0Q4KmffIj1ZRpTENyI5X8QVX/view"
           }
           className="text-white bg-[#5C62EC] rounded-md py-4 px-8 hover:opacity-75 transition-all text-center"
           target="_blank"
